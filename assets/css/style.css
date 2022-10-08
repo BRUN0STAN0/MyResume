@@ -196,8 +196,6 @@ h6 {
   color: #45505b;
 }
 
-@media (min-width: 992px) {
-
   .nav-menu a,
   .nav-menu a:focus {
     width: 56px;
@@ -208,7 +206,7 @@ h6 {
     display: none;
     color: #fff;
   }
-}
+
 
 .nav-menu a:hover,
 .nav-menu .active,
