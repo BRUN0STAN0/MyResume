@@ -117,11 +117,7 @@ h6 {
 /*--------------------------------------------------------------
 # Disable aos animation delay on mobile devices
 --------------------------------------------------------------*/
-@media screen and (max-width: 768px) {
-  [data-aos-delay] {
-    transition-delay: 0 !important;
-  }
-}
+
 
 /*--------------------------------------------------------------
 # Header
@@ -133,7 +129,7 @@ h6 {
   bottom: 0;
   z-index: 9997;
   transition: all 0.5s;
-  padding: 15px;
+  padding: 5px;
   overflow-y: auto;
 }
 
@@ -484,10 +480,12 @@ section {
 }
 
 /*--------------------------------------------------------------
-# Akills
+# Skills
 --------------------------------------------------------------*/
+
 .skills .progress {
   height: 60px;
+  font-size: 18px;
   display: block;
   background: none;
   border-radius: 0;
