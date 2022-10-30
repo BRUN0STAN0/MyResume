@@ -435,6 +435,12 @@ section {
   margin-bottom: 0;
 }
 
+#logo-rotate {
+  animation: animate-loading linear;
+  animation-duration: 5s;
+  animation-iteration-count: infinite;
+}
+
 /*--------------------------------------------------------------
 # Facts
 --------------------------------------------------------------*/
@@ -1227,4 +1233,34 @@ section {
 
 #footer .credits {
   font-size: 13px;
+}
+
+@media print {
+  #header,
+  #navbar,
+  #hero,
+  #logo-rotate,
+  #portfolio,
+  #contact,
+  .back-to-top,
+  #footer {
+    display: none!important;
+  }
+  #main {
+    padding:0px;
+    margin: 0px;
+  }
+  .container {
+    width: 100vw;
+  }
+  #skills {
+    display: flex;
+  }
+  .col-lg-6 {
+    width: 50%;
+  }
+  section {
+    margin: 0px;
+    padding: 0px;
+  }
 }
