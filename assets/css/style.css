@@ -1256,6 +1256,9 @@ section {
   #skills {
     display: flex;
   }
+  .col-lg-4 {
+    width: 33.33%;
+  }
   .col-lg-6 {
     width: 50%;
   }
