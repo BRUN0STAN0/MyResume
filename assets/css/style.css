@@ -1235,6 +1235,10 @@ section {
   font-size: 13px;
 }
 
+#logo-mansione {
+  border-radius: 20px;
+}
+
 @media print {
   #header,
   #navbar,
@@ -1245,6 +1249,14 @@ section {
   .back-to-top,
   #footer {
     display: none!important;
+  }
+  #logo-mansione{
+    width: 200px;
+    margin-left: 250px;
+    margin-block: 20px;
+  }
+  #mansione img {
+    width: 100%;
   }
   #main {
     padding:0px;
@@ -1269,5 +1281,6 @@ section {
   section {
     margin: 0px;
     padding: 0px;
+    break-inside: avoid;  /*! Per non splittare in stampa */
   }
 }
